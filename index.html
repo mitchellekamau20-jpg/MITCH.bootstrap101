@@ -158,24 +158,37 @@
       }
       .card-testimonial-is--yellow{
         background-color:#fff9ee;
+        border-radius: ;
       
       }
-      .card-testimonial-is--yellow> div>img{
-        border-radius: 10%;
+      .card-testimonial.is--yellow>div>img{
+        border-radius:50%;
+        vertical-align: middle;
         width: 50px;
 
       }
       .card-testimonial.is--green>div>img{
         border-radius: 50%;
+        vertical-align: middle;
         width: 50px;
       }
-
-      .card-testimonial{
+.card-testimonial.is--haze>div>img{
+        border-radius: 50%; 
+        vertical-align: middle;
+        width: 50px;
+}
+      .card-testimonial-is--yellow{
     border-radius: 24px;
     height: 100%;
     min-height: 25rem;
     padding: 2.3rem;
      } 
+     .card-testimonial{
+      border-radius: 24px;
+    height: 100%;
+    min-height: 25rem;
+    padding: 2.3rem;
+     }
      .home-p-20.is--dark-blue-2{
          color: var(--dark-blue-2);
       }
@@ -191,8 +204,8 @@
     overflow: hidden;
 }
 .w-layout-blockcontainer2 {
-    margin-left:auto;
-    margin-right: auto;
+    margin-left:20px;
+    margin-right: 20px;
     display: block;
     padding: auto;
     align-items: center;
@@ -204,6 +217,30 @@
     display: block;
     unicode-bidi: isolate;
   }
+   .card-testimonial-header{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start
+  }
+  .card4{
+    background-color: var(--primary-color);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+.card4>div>img{
+  max-width: 100%;
+}
+.content{
+  text-align: center;
+}
+
+
+
+
+  
+
     </style>
   <body>
     <!--home section-->
@@ -317,9 +354,9 @@ Web Development Program</h2>
     <h2 class="h2 ">We’ve helped thousands of developers start international careers</h2></div>
 
     <div class="w-layout-blockcontainer2 container-1320 w-container d-flex ">
-   <div class=" card-testimonial-is--yellow ">
+   <div class=" card-testimonial is--yellow ">
     <div class="w-layout-hflex card-testimonial-header ">
-      <img src="https://cdn.prod.website-files.com/5dbb30f00775d4c32191a4df/607b1a7eb26414dd55342fb2_kevin-200x200.webp" loading="lazy" alt="" class="textimonial-avatar rounded-circle">
+      <img src="https://cdn.prod.website-files.com/5dbb30f00775d4c32191a4df/607b1a7eb26414dd55342fb2_kevin-200x200.webp" loading="lazy" alt="" class="textimonial-avatar rounded-circle ">
       <div class="w-layout-grid card-testimonial-grid-info">
         <div class="card-testimonial-name">Kevin M</div>
       <div class="card-testimonial-region">Kenya</div>
@@ -332,7 +369,7 @@ Web Development Program</h2>
 
 <div class=" card-testimonial is--green">
   <div class="w-layout-hflex card-testimonial-header">
-  <img src="https://cdn.prod.website-files.com/5dbb30f00775d4c32191a4df/607b1aa05c2f050e563256b5_gabriela-200x200.webp" loading="lazy" alt="" class="textimonial-avatar rounded-circle">
+  <img src="https://cdn.prod.website-files.com/5dbb30f00775d4c32191a4df/607b1aa05c2f050e563256b5_gabriela-200x200.webp" loading="lazy" alt="" class="textimonial-avatar rounded-circle ">
   <div class="w-layout-grid card-testimonial-grid-info">
     <div class="card-testimonial-name">Gabriela C</div>
 <div class="card-testimonial-region">Mexico</div>
@@ -345,7 +382,7 @@ Web Development Program</h2>
 
 <div class=" card-testimonial is--haze">
   <div class="w-layout-hflex card-testimonial-header">
-  <img src="https://cdn.prod.website-files.com/5dbb30f00775d4c32191a4df/6633ac03ff42a0fdc1d6e1d6_Luis-fernando.png" loading="lazy" alt="" class="textimonial-avatar rounded-circle">
+  <img src="https://cdn.prod.website-files.com/5dbb30f00775d4c32191a4df/6633ac03ff42a0fdc1d6e1d6_Luis-fernando.png" loading="lazy" alt="" class="textimonial-avatar rounded-circle ">
   <div class="w-layout-grid card-testimonial-grid-info">
   <div class="card-testimonial-name">Luis F</div>
 <div class="card-testimonial-region">Ecuador</div>
@@ -360,6 +397,26 @@ Web Development Program</h2>
 
 
 </section>
+
+ <div class=" card4 footer-simple ">
+  <div class="content">
+  <div>
+   <img src="https://cdn.prod.website-files.com/5dbb30f00775d4c32191a4df/662bc3af41b54d3110f467ae_microverse-logo-white.png" loading="lazy" width="192" alt="" class="microverse-white-logo"> 
+  </div>
+  <div class="  center">
+   <a href="/about-us" class="footer-simple-link">About</a>
+   <a href="/blog" class="footer-simple-link">Blog</a>
+   <a href="/help-center" class="footer-simple-link">FAQs</a> 
+  </div>
+  <div class="footer-simple copyright">
+    © 2026 Microverse Enterprises, Inc. All rights reserved.
+  </div>
+</div>
+ </div>
+
+
+
+
 
 
 
